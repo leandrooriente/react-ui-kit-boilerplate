@@ -1,0 +1,54 @@
+{
+  "name": "react-ui-kit-boilerplate",
+  "version": "1.0.0",
+  "description": "A React UI Kit boilerplate with Styled Components, Typescript and Jest",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrooriente/react-ui-kit-boilerplate.git"
+  },
+  "keywords": [
+    "jest",
+    "react",
+    "typescript",
+    "boilerplate",
+    "storybook"
+  ],
+  "author": "Leandro Oriente <leandroriente@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leandrooriente/react-ui-kit-boilerplate/issues"
+  },
+  "homepage": "https://github.com/leandrooriente/react-ui-kit-boilerplate#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@storybook/addon-actions": "^4.0.0-alpha.22",
+    "@storybook/addon-info": "^3.4.11",
+    "@storybook/addon-links": "^4.0.0-alpha.16",
+    "@storybook/addons": "^4.0.0-alpha.16",
+    "@storybook/react": "^4.0.0-alpha.16",
+    "@types/jest": "^23.3.2",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-test-renderer": "^16.0.2",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__addon-info": "^3.4.2",
+    "@types/storybook__react": "^3.0.9",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.0",
+    "jest": "^23.6.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-test-renderer": "^16.5.2",
+    "ts-jest": "^23.10.1",
+    "typescript": "^3.0.3"
+  }
+}
