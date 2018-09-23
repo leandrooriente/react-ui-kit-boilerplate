@@ -27,6 +27,7 @@
     "build",
     "scripts",
     ".storybook",
+    "src/internal",
     "src/**/*.test.tsx",
     "src/**/*.stories.tsx"
   ]

@@ -1,8 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button should render correctly 1`] = `
+.c0 {
+  border-radius: 3px;
+  padding: 0.25em 1em;
+  margin: 0 1em;
+  background: transparent;
+  color: #27ae60;
+  border: 2px solid #27ae60;
+}
+
 <button
-  className="sc-bdVaJa fuFWB"
+  className="c0"
+  disabled={false}
   onClick={[Function]}
 >
   Test
