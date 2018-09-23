@@ -22,5 +22,12 @@
     "experimentalDecorators": true
   },
   "include": ["src/**/*", ".storybook/**/*"],
-  "exclude": ["node_modules", "build", "scripts"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    ".storybook",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
+  ]
 }
