@@ -1,4 +1,5 @@
 interface Colors {
+  disabledColor: string;
   primaryColor: string;
 }
 
@@ -8,7 +9,8 @@ export interface ThemeInterface {
 
 const theme: ThemeInterface = {
   colors: {
-    primaryColor: "#c0392b",
+    disabledColor: "#bdc3c7",
+    primaryColor: "#27ae60",
   },
 };
 
