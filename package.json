@@ -10,6 +10,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm test"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leandrooriente/react-ui-kit-boilerplate.git"
@@ -46,6 +51,7 @@
     "@types/storybook__react": "^3.0.9",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.0",
+    "husky": "^1.0.0-rc.15",
     "jest": "^23.6.0",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "react-test-renderer": "^16.5.2",
