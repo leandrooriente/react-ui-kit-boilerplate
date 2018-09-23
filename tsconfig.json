@@ -8,8 +8,8 @@
     "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDirs": ["src"],
-    "baseUrl": "src",
+    "rootDirs": ["src", ".storybook"],
+    "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -21,6 +21,6 @@
     "allowSyntheticDefaultImports": false,
     "experimentalDecorators": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", ".storybook/**/*"],
   "exclude": ["node_modules", "build", "scripts"]
 }
