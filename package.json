@@ -50,6 +50,7 @@
     "@types/storybook__addon-actions": "^3.4.1",
     "@types/storybook__addon-info": "^3.4.2",
     "@types/storybook__react": "^3.0.9",
+    "@types/styled-components": "^3.0.1",
     "babel-loader": "^8.0.0",
     "husky": "^1.0.0-rc.15",
     "jest": "^23.6.0",
