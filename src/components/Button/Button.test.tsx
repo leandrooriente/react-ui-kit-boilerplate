@@ -1,11 +1,11 @@
 import * as React from "react";
-import { create } from "react-test-renderer";
 
+import themed from "../../utils/themed";
 import Button from "./Button";
 
 describe("Button", () => {
   it("should render correctly", () => {
-    const component = create(
+    const component = themed(
       <Button onClick={jest.fn}>
         Test
       </Button>,
