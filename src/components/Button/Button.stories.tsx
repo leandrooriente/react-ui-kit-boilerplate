@@ -8,5 +8,9 @@ const stories = storiesOf("Components/Button", module);
 
 stories.add(
   "default",
-  withInfo({ inline: true })(() => <Button onClick={action("onClick")} />),
+  withInfo({ inline: true })(() => (
+    <Button onClick={action("onClick")}>
+      Default
+    </Button>
+  )),
 );

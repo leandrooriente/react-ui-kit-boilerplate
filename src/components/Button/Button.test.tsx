@@ -6,7 +6,9 @@ import Button from "./Button";
 describe("Button", () => {
   it("should render correctly", () => {
     const component = create(
-      <Button onClick={jest.fn} />,
+      <Button onClick={jest.fn}>
+        Test
+      </Button>,
     ).toJSON();
 
     expect(component).toMatchSnapshot();
