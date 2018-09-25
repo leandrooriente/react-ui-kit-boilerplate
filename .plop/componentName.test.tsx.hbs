@@ -1,0 +1,16 @@
+import * as React from "react";
+
+import themed from "../../utils/themed";
+import {{ properCase name }} from "./{{ properCase name }}";
+
+describe("{{ properCase name }}", () => {
+  it("should render correctly", () => {
+    const component = themed(
+      <{{ properCase name }}>
+        Test
+      </{{ properCase name }}>,
+    ).toJSON();
+
+    expect(component).toMatchSnapshot();
+  });
+});
