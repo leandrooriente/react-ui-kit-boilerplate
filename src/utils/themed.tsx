@@ -3,7 +3,7 @@ import * as renderer from "react-test-renderer";
 import { ThemeProvider } from "styled-components";
 import theme from "../theme";
 
-const themed = (component: React.ReactNode): React.ReactNode => renderer.create(
+const themed = (component: React.ReactNode) => renderer.create(
   <ThemeProvider theme={theme}>
     {component}
   </ThemeProvider>,
