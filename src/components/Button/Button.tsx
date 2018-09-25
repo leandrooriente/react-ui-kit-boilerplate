@@ -1,5 +1,5 @@
 import * as React from "react";
-import StyledButton from "./styled";
+import StyledButton from "./styled/StyledButton";
 
 export interface ButtonProps {
   /** Callback function to be called when user clicks on button */

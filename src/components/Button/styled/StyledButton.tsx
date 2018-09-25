@@ -1,4 +1,4 @@
-import styled from "../../utils/styled-components";
+import styled from "../../../utils/styled-components";
 
 const StyledButton = styled<{ disabled: boolean }, "button">("button")`
   border-radius: 3px;
