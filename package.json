@@ -63,6 +63,7 @@
     "husky": "^1.0.0-rc.15",
     "jest": "^23.6.0",
     "jest-styled-components": "^6.2.1",
+    "plop": "^2.1.0",
     "react-docgen-typescript-loader": "^3.0.0",
     "react-test-renderer": "^16.5.2",
     "ts-jest": "^23.10.1",
