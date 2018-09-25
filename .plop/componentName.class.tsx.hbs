@@ -1,0 +1,18 @@
+import * as React from "react";
+import Styled{{ properCase name }} from "./styled/Styled{{ properCase name }}";
+
+interface Props {
+  children: React.ReactNode;
+}
+
+class {{ properCase name }} extends React.Component<Props, {}> {
+  public render() {
+    return (
+      <Styled{{ properCase name }}>
+        {this.props.children}
+      </Styled{{ properCase name }}>
+    );
+  }
+}
+
+export default {{ properCase name }};

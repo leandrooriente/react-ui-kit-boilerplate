@@ -1,0 +1,17 @@
+import { text, withKnobs } from "@storybook/addon-knobs";
+import { storiesOf } from "@storybook/react";
+import * as React from "react";
+import { wInfo } from "../../utils/wInfo";
+import {{ properCase name }} from "./{{ properCase name }}";
+
+const stories = storiesOf("Components/{{ properCase name }}", module);
+stories.addDecorator(withKnobs);
+
+stories.add(
+  "default",
+  wInfo()(() => (
+    <{{ properCase name }}>
+      {text("Label", "Default")}
+    </{{ properCase name }}>
+  )),
+);
