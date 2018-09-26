@@ -2,6 +2,10 @@
 
 The perfect boilerplate to help you to create your own React UI Kit. 
 
+## Live Example
+
+[https://leandrooriente.github.io/react-ui-kit-boilerplate](https://leandrooriente.github.io/react-ui-kit-boilerplate/?selectedKind=Components%2FButton&selectedStory=default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs&knob-Label=Default)
+
 ## Features
 
 - [Typescript](https://www.typescriptlang.org)
@@ -28,6 +32,10 @@ To add a new component, just run `npm run generate`. This command will generate 
 
 To test your components run `npm test`.
 By default we run tests and lint before any push.
+
+## Deploying storybook
+
+To deploy storybook to Github Pages run `npm run deploy-storybook`.
 
 ## License
 
