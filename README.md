@@ -2,6 +2,8 @@
 
 The perfect boilerplate to help you to create your own React UI Kit. 
 
+[![dependencies Status](https://david-dm.org/leandrooriente/react-ui-kit-boilerplate/status.svg)](https://david-dm.org/leandrooriente/react-ui-kit-boilerplate)
+
 ## Live Example
 
 [https://leandrooriente.github.io/react-ui-kit-boilerplate](https://leandrooriente.github.io/react-ui-kit-boilerplate/?selectedKind=Components%2FButton&selectedStory=default&full=0&addons=1&stories=1&panelRight=1&addonPanel=storybooks%2Fstorybook-addon-knobs&knob-Label=Default)
