@@ -2,7 +2,16 @@
 
 The perfect boilerplate to help you to create your own React UI Kit. 
 
-[![dependencies Status](https://david-dm.org/leandrooriente/react-ui-kit-boilerplate/status.svg)](https://david-dm.org/leandrooriente/react-ui-kit-boilerplate)
+<div align="center">
+  <!-- Dependency Status -->
+  <a href="https://david-dm.org/leandrooriente/react-ui-kit-boilerplate">
+    <img src="https://david-dm.org/leandrooriente/react-ui-kit-boilerplate.svg" alt="Dependency Status" />
+  </a>
+  <!-- devDependency Status -->
+  <a href="https://david-dm.org/leandrooriente/react-ui-kit-boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/leandrooriente/react-ui-kit-boilerplate/dev-status.svg" alt="devDependency Status" />
+  </a>
+</div>
 
 ## Live Example
 
