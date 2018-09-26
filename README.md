@@ -33,6 +33,10 @@ To add a new component, just run `npm run generate`. This command will generate 
 To test your components run `npm test`.
 By default we run tests and lint before any push.
 
+## Deploying storybook
+
+To deploy storybook to Github Pages run `npm run deploy-storybook`.
+
 ## License
 
 MIT
