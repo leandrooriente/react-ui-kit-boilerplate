@@ -7,6 +7,7 @@ module.exports = (baseConfig, env, config) => {
       path.resolve(__dirname, "../.storybook")
     ],
     use: [
+      require.resolve("cache-loader"),
       {
         loader: require.resolve("ts-loader"),
         options: {
