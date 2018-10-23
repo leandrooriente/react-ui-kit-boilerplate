@@ -63,6 +63,7 @@
     "@types/storybook__react": "^3.0.9",
     "@types/styled-components": "^3.0.1",
     "babel-loader": "^8.0.0",
+    "cache-loader": "^1.2.2",
     "husky": "^1.0.0-rc.15",
     "jest": "^23.6.0",
     "jest-styled-components": "^6.2.1",
