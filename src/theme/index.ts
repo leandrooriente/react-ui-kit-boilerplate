@@ -9,8 +9,8 @@ export interface ThemeInterface {
 
 const theme: ThemeInterface = {
   colors: {
-    disabledColor: "#bdc3c7",
-    primaryColor: "#27ae60",
+    disabledColor: '#bdc3c7',
+    primaryColor: '#27ae60',
   },
 };
 

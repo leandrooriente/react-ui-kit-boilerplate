@@ -1,14 +1,15 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:latest",
-        "tslint-react"
-    ],
-    "jsRules": {},
-    "rules": {
-        "no-implicit-dependencies": [true, "dev"],
-        "interface-name" : [true, "never-prefix"],
-        "no-submodule-imports": false
-    },
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "no-implicit-dependencies": [true, "dev"],
+    "interface-name" : [true, "never-prefix"],
+    "no-submodule-imports": false
+  },
+  "rulesDirectory": []
 }

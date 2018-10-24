@@ -1,18 +1,18 @@
-import * as React from "react";
-import styled from "../../utils/styled-components";
+import * as React from 'react';
+import styled from '../../utils/styled-components';
 
 export interface ColorProps {
   color: string;
   name: string;
 }
 
-const ColorBox = styled<{ color: string }, "div">("div")`
+const ColorBox = styled<{ color: string }, 'div'>('div')`
   width: 200px;
   height: 200px;
   background: ${({ color }) => color};
 `;
 
-const ColorName = styled<{}, "div">("div")`
+const ColorName = styled<{}, 'div'>('div')`
   background: #FFF;
   height: 50px;
   color: #999;
@@ -26,7 +26,7 @@ const ColorName = styled<{}, "div">("div")`
   border-top: 0;
 `;
 
-const Wrapper = styled<{}, "div">("div")`
+const Wrapper = styled<{}, 'div'>('div')`
   margin: 15px;
   display: inline-block;
   width: 200px;

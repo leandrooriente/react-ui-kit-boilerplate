@@ -1,4 +1,4 @@
-import { withInfo } from "@storybook/addon-info";
+import { withInfo } from '@storybook/addon-info';
 
 const wInfoStyle = {};
 
