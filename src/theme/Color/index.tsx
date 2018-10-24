@@ -1,3 +1,3 @@
-import Color from "./color";
+import Color from './color';
 
 export default Color;
