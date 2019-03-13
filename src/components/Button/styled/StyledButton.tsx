@@ -1,6 +1,6 @@
 import styled from '../../../utils/styled-components';
 
-const StyledButton = styled<{ disabled: boolean }, 'button'>('button')`
+const StyledButton = styled('button')<{ disabled: boolean }>`
   border-radius: 3px;
   padding: 0.25em 1em;
   margin: 0 1em;
